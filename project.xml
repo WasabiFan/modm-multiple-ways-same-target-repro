@@ -1,0 +1,18 @@
+<library>
+  <repositories>
+    <!-- path to modm repository -->
+    <repository>
+      <path>./modm-lib/repo.lb</path>
+    </repository>
+  </repositories>
+  <!-- extend this board configuration -->
+  <extends>modm:disco-f469ni</extends>
+  <options>
+    <!-- give this project a custom name -->
+    <option name="modm:build:project.name">modm-disco-test</option>
+  </options>
+  <modules>
+    <!-- include the SCons build module -->
+    <module>modm:build:scons</module>
+  </modules>
+</library>

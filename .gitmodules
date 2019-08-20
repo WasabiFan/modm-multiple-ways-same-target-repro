@@ -1,0 +1,6 @@
+[submodule "modm"]
+	path = modm-lib
+	url = https://github.com/modm-io/modm.git
+[submodule "modm-lib"]
+	path = modm-lib
+	url = https://github.com/modm-io/modm.git
